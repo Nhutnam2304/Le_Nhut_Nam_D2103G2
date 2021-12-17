@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:  #091B61;
+}
+.header{
+    height: 630px;
+    background-color:white;
+    padding: 32px 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-nav{
+    list-style: none;
+    display: flex;
+}
+/* .menu{
+    vertical-align: middle;
+} */
+.menu-item-left{
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0 40px 0 0;
+}
+.sgp{
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0 40px 0 0;
+    background: tomato;
+    padding:10px 40px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btm{
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0 0 0 40px;
+    background: tomato;
+    padding:10px 40px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* main */
+
+.main{
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+/* banner */
+.banner{
+    width: 50%; 
+
+}
+
+.title{
+    font-weight: 50px;
+    display: block;
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.text-banner{
+    font-size: 15px;
+    margin: 10px auto;
+}
+
+.img-banner{
+    width: 100%;
+    margin-top: 50px;
+}
+/* feather */
+.blog-tiltle{
+    margin: 10px 0;
+    font-weight: 500;
+}
+.blog-dec{
+    font-size: 12px;
+}
+.feather{
+    width: 32%;
+}
+.img-feather{
+    width: 100%;
+}
+.img-banner1{
+    width: 1000px;
+    margin: 10px auto;
+    margin-right:50px;
+}
+.title1{
+    color: burlywood;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.cotainer{
+    background-color: gray;
+}
+.feather1{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    padding-right:50px
+}
+.img-feather1{
+    width: 30%;
+    float: left;
+
+}
+
+.blog-tiltle1{
+    float:right;
+    font-size: 20px;
+    margin-left:20px;
+    margin: 10px auto;
+}
+.blog{
+    margin-left:20px;
+    margin: 10px auto;
+}
+.img-feather2{
+    width: 30%;
+    float:right;
+}
+.blog-tiltle2{
+    margin-top: 20px;
+}
+.button{
+    width: 100%;
+    background-color:teal;
+    margin: 50px 0;
+}
+.banner-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding: 50px 0;
+    
+}
+
+.btn-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-btn{
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    margin-left:50px;
+}
+
+
+.text-banner-btn{
+    font-size: 20px;
+  
+    text-align: center;
+    margin-left:50px;
+}
+.footer{
+    background-color:white ;
+    padding: 24px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0;
+}
+.NAME{
+    font-size: 14px;
+    margin-top: 14px;       
+}
+
+.menu-footer{
+    list-style:  none;
+    display: flex;
+
+}
+.menu-item-footer{
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 40px;
+}
